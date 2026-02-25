@@ -18,8 +18,7 @@ function App() {
     const trimmedPassword = password.trim();
 
     // ✅ Professional Email Regex (allows numbers + all domains)
-    const emailPattern =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern = /^[a-zA-Z0-9]+([._%+-]?[a-zA-Z0-9]+)*@gmail\.com$/;
 
     // ✅ Strong Password Regex
     // Must start with capital
